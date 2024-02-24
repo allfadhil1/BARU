@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="width=device-width, initial-scale=1.0">
     <title>Pesona Lautan</title>
-    <link rel="stylesheet" type="text/css" href="learnmore.css"
+    <link rel="stylesheet" type="text/css" href="learnmore.css">
 </head>
     
 
@@ -14,16 +14,24 @@
         <ul>
             <li><a class="active" href="Project.php">Home</a></li>
             <li><a href="ProjectProfil.php">Profil</a></li>
-            <li class="dropdown">
-            
-                <a href="#medsos">Medsos</a>
-                <div class="dropdown-content">
-                    <a href="https">Instagram</a>
-                    <a href="#">Facebook</a>
-                </div>
-            </li>
+        
+            <li>
+            <div class="dropdown">
+    <button class="dropbtn">Dropdown
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content">
+      <a href="#">Link 1</a>
+      <a href="#">Link 2</a>
+      <a href="#">Link 3</a>
+      </div>
+      </div>
+  </li>
+</div>
+               
            
-            <li style="float: right;"><a href="about.php">About</a></li>
+            <li style="float: right;"><a href="../login.php">Login</a></li>
+            <li style="float: right;"><a href="../register.php">Register</a></li>
         </ul>
     </nav>
     
@@ -43,9 +51,10 @@
               <h2>Pesona Ikan</h2>
               <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eum omnis quidem, nesciunt saepe nam nemo sint cupiditate alias esse nihil illo beatae dolor nisi delectus aperiam laudantium corporis officia tempora.</p>
               <br>
+              
                
                
-               <a href="PesonaIkan.php"><button class="button button2">Blue</button></a>
+               <a href="PesonaIkan.php">Learn More</a>
                
               
           </div>
@@ -56,15 +65,16 @@
 <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eum omnis quidem, nesciunt saepe nam nemo sint cupiditate alias esse nihil illo beatae dolor nisi delectus aperiam laudantium corporis officia tempora.</p>
 <div class='tombol'>
 
-<a href="PesonaTerumbuKarang.php" class=btn btn3>Learn More</a>
-<button class="button button2">Blue</button>
+<a href="PesonaIkan.php">Learn More</a>
+
 </div>
           </div></div>
         <div class="slide" for="slide3" style="--img:url('ASSET/78ac1ebbf683f9fc75adf5b6d7083c43.jpg')">
         <div class="content">
 <h2>Pesona Pantai</h2>
 <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eum omnis quidem, nesciunt saepe nam nemo sint cupiditate alias esse nihil illo beatae dolor nisi delectus aperiam laudantium corporis officia tempora.</p>
-<button class=btn btn3>Learn More</button>
+<br>
+<a href="PesonaIkan.php">Learn More</a>
           </div></div>
     </div>
    </div>
